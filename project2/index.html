@@ -1,0 +1,72 @@
+<!-- salmanrezzi -->
+<!DOCTYPE html>
+<html>
+<body>
+<!-- 
+Nama    : Salman Tubagus Alfarizi
+NIM     : 2215102006
+Kelas   : SC1
+
+    Implemantasi HTML Form Elemen & HTML Input Atributes
+    <form> & <input> -->
+    <h2>Intrudiction</h2>
+    <form action="/action_page.php">
+    <label for="fname">Nama Depan:</label><br>
+    <input type="text" id="fname" name="fname" value="Salman Tubagus"><br>
+    <label for="lname">Nama Belakang:</label><br>
+    <input type="text" id="lname" name="lname" value="Alfarizi" readonly><br>
+    <label for="lname">Umur:</label><br>
+    <input type="number" id="lname" name="lage" value="20" required><br>
+    <!-- <textarea> -->
+    <label for="lname">Alamat :</label><br> 
+    <textarea name="message" rows="10" cols="30">Karangmoncol RT16/RW05, Karangmoncol, Kec. Randudongkal, Kab. Pemalang
+    </textarea><br>
+    <!-- <select> -->
+    <label for="lname">Jurusan :</label><br>
+    <select id="cars" name="cars">
+    <option value="volvo">Informatika</option>
+    <option value="saab">Arsitektur</option>
+    <option value="fiat">Teknik Mesin</option>
+    <option value="audi">Tataboga</option>
+    </select><br>
+    <!-- <button> -->
+    <button type="button" onclick="alert('Terima Kasih Sudah mengeklik Tehe...^_^')">Click Me!</button><br>
+    <!-- <option> -->
+    <label for="lname">Multiple :</label><br>
+    <select name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    </select><br>
+    <!-- <label>&<checkbox> -->
+    <label for="lname">Gender :</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="lname">Choose :</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br> 
+    <!-- <color> -->
+    <label for="favcolor">Select your favorite color:</label><br>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <label for="birthday">Birthday:</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" value="2215102006@ittelkom.ac.id"><br> 
+    
+ 
+ <label for="myfile">Select a file:</label><br>
+ <input type="file" id="myfile" name="myfile"> 
+ 
+ <input type="submit" value="Submit"><br>
+ </form>
+ <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
